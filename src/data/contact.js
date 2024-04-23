@@ -1,3 +1,5 @@
+import links from './links.js'
+
 export default [
 	[
 		{
@@ -21,14 +23,19 @@ export default [
 	],
 	[
 		{
+			icon: 'EmailFast',
+			title: 'Our Newsletter',
+			href: links.newsletter,
+		},
+		{
 			icon: 'HandBackRight',
 			title: 'Volunteer',
-			href: 'https://villagesofdetroit.typeform.com/to/xIrcG1I3',
+			href: links.volunteer,
 		},
 		{
 			icon: 'Gift',
 			title: 'Donate',
-			href: 'https://syndon.us/campaign/the%20villages%20of%20detroit',
+			href: links.donate,
 		},
 	],
 ]

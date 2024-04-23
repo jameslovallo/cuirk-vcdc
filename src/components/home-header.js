@@ -5,10 +5,9 @@ export const homeHeader = ({ eyebrow, title }) => html`
 		<img src="/src/images/global/logo.svg" />
 		<div>
 			<h1><small>${eyebrow}</small>${title}</h1>
-			<c-typer
-				sentence="Stronger neighborhoods through"
-				words="equity, inclusion, diversity"
-			></c-typer>
+			<c-typer words="equity, inclusion, diversity">
+				Stronger neighborhoods through
+			</c-typer>
 		</div>
 	</div>
 `

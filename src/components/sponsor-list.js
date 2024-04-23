@@ -1,17 +1,16 @@
 import { css, html, loop } from 'cuirk'
 import sponsors from '../data/sponsors.js'
 
-const sponsorItem = ({ image, href }) =>
-	html`
-		<a href="${href}" target="_blank">
-			<img src="${image}" />
-		</a>
-	`
+const sponsorLink = ({ image, href }) => html`
+	<a href="${href}" target="_blank">
+		<img src="${image}" />
+	</a>
+`
 
 export const sponsorList = () => html`
 	<div class="sponsors">
 		<h2>Sponsors</h2>
-		<div class="row">${loop(sponsors, sponsorItem)}</div>
+		<div class="row">${loop(sponsors, sponsorLink)}</div>
 	</div>
 `
 

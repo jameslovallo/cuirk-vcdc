@@ -1,5 +1,6 @@
 import { md } from 'cuirk'
 import { linkList } from '../src/components/index.js'
+import links from '../src/data/links.js'
 import planning from '../src/data/planning.js'
 
 export const body = md`
@@ -7,7 +8,15 @@ export const body = md`
 
 We work with residents and businesses within the footprint that stretches from Mount Elliott Avenue in the west to St. Jean Street in the east, from Mack Avenue in the north going all the way down to the Detroit River. The Villages district consists of 18,000 Detroiters.
 
-[Subscribe to Our Newsletter ](https://thevillagesofdetroit.us10.list-manage.com/subscribe/post?u=491160fdb6c928b779465812e&id=df5c91e13e)
+## Stay Informed
+
+${linkList([
+	{
+		icon: 'EmailFast',
+		title: 'Subscribe to Our Newsletter',
+		href: links.newsletter,
+	},
+])}
 
 ## Development in The Villages
 

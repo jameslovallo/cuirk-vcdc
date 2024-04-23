@@ -22,8 +22,5 @@ press.style = css`
 			display: flex;
 			justify-content: space-between;
 		}
-		a {
-			text-decoration: none;
-		}
 	}
 `

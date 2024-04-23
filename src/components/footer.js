@@ -1,16 +1,12 @@
 import { css, html } from 'cuirk'
+import links from '../data/links.js'
+
+const date = new Date().getFullYear()
 
 export const footer = () => html`
 	<footer>
-		<a
-			href="https://thevillagesofdetroit.us10.list-manage.com/subscribe/post?u=491160fdb6c928b779465812e&id=df5c91e13e"
-		>
-			Subscribe to Our Newsletter
-		</a>
-		<small>
-			© ${new Date().getFullYear()} The Villages of Detroit. All Rights
-			Reserved.
-		</small>
+		<a href="${links.newsletter}">Subscribe to Our Newsletter</a>
+		<small>© ${date} The Villages of Detroit. All Rights Reserved.</small>
 	</footer>
 `
 

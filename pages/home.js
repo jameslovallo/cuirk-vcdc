@@ -4,8 +4,10 @@ import {
 	flyer,
 	grid,
 	homeHeader,
+	linkList,
 	sponsorList,
 } from '../src/components/index.js'
+import links from '../src/data/links.js'
 
 export const meta = {
 	scripts: [
@@ -28,7 +30,7 @@ const cards = [
 	{
 		title: 'Volunteer',
 		image: '/src/images/home/volunteer.webp',
-		href: 'https://villagesofdetroit.typeform.com/to/xIrcG1I3',
+		href: links.volunteer,
 	},
 	{
 		title: 'Our Community',
@@ -56,6 +58,20 @@ ${flyer()}
 ${sponsorList()}
 
 <c-youtube vid="pcH2KAH6F-4"></c-youtube>
+
+## We Are The Villages
+
+<div style="align-items: center; display: flex; flex-flow: row wrap; gap: 1rem;">
+	<c-youtube vid="F5jNdIujCr4" style="flex-basis: 300px; flex-grow: 1;"></c-youtube>
+	${linkList([
+		{ icon: 'Sprout', title: 'Strategic Plan', href: '/what-we-do' },
+		{
+			icon: 'EmailFast',
+			title: 'Our Newsletter',
+			href: links.newsletter,
+		},
+	])}
+</div>
 
 ## About Us
 

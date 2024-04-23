@@ -60,7 +60,8 @@ ul {
 }
 
 a {
-	color: dodgerblue;
+	color: currentColor;
+	text-decoration-color: var(--primary);
 }
 
 code:not([class*='language-']) {

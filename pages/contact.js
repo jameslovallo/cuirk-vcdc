@@ -16,7 +16,7 @@ ${grid(
 			${linkList(contactInfo[0])}
 		</div>
 		<div>
-			<h2>Volunteer or Donate</h2>
+			<h2>Get Involved</h2>
 			${linkList(contactInfo[1])}
 		</div>
 	`

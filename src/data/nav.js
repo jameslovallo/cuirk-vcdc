@@ -1,3 +1,5 @@
+import links from '../data/links.js'
+
 export default [
 	{
 		title: 'The Villages',
@@ -36,7 +38,7 @@ export default [
 	},
 	{
 		title: 'Donate',
-		href: 'https://syndon.us/campaign/the%20villages%20of%20detroit',
+		href: links.donate,
 		position: 'end',
 	},
 ]
