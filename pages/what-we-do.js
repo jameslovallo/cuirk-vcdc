@@ -125,6 +125,8 @@ ${grid(loop(services, card))}
 
 <style>
 	.card {
+		background: white;
+		color: black;
 		text-align: center;
 		img {
 			aspect-ratio: 4/3;
