@@ -1,4 +1,4 @@
-import { css, html } from 'cuirk'
+import { html, scss } from 'cuirk'
 import { grid } from './grid.js'
 
 export const contactForm = () => html`
@@ -32,7 +32,7 @@ export const contactForm = () => html`
 	</form>
 `
 
-contactForm.style = css`
+contactForm.style = scss`
 	form {
 		display: grid;
 		gap: 1rem;

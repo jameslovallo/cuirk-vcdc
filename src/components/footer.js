@@ -1,4 +1,4 @@
-import { css, html } from 'cuirk'
+import { html, scss } from 'cuirk'
 import links from '../data/links.js'
 
 const date = new Date().getFullYear()
@@ -10,7 +10,7 @@ export const footer = () => html`
 	</footer>
 `
 
-footer.style = css`
+footer.style = scss`
 	footer {
 		background: var(--footer-bg, black);
 		color: var(--footer-color, white);

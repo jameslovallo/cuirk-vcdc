@@ -1,4 +1,4 @@
-import { css, html, when } from 'cuirk'
+import { html, scss, when } from 'cuirk'
 
 export const card = ({ image, title, description, href }) => {
 	const tag = href ? 'a' : 'div'
@@ -11,7 +11,7 @@ export const card = ({ image, title, description, href }) => {
 	`
 }
 
-card.style = css`
+card.style = scss`
 	.card {
 		--card-padding: 0.75rem;
 		background: var(--card-bg, black);
@@ -22,7 +22,7 @@ card.style = css`
 		grid-template-rows: auto 1fr;
 		padding-bottom: var(--card-padding);
 		text-decoration: none;
-
+		
 		> *:not(img) {
 			margin: var(--card-padding) var(--card-padding) 0;
 		}

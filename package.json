@@ -5,7 +5,7 @@
 	"dependencies": {
 		"@mdi/js": "^7.4.47",
 		"browser-sync": "^3.0.2",
-		"cuirk": "^0.0.31"
+		"cuirk": "^0.0.32"
 	},
 	"scripts": {
 		"build": "npx build",

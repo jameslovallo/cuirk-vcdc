@@ -1,4 +1,4 @@
-import { css, html, loop } from 'cuirk'
+import { html, loop, scss } from 'cuirk'
 import sponsors from '../data/sponsors.js'
 
 const sponsorLink = ({ image, href }) => html`
@@ -14,7 +14,7 @@ export const sponsorList = () => html`
 	</div>
 `
 
-sponsorList.style = css`
+sponsorList.style = scss`
 	.sponsors {
 		margin-bottom: 3rem;
 		text-align: center;

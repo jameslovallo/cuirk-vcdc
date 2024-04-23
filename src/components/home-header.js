@@ -1,4 +1,4 @@
-import { css, html } from 'cuirk'
+import { html, scss } from 'cuirk'
 
 export const homeHeader = ({ eyebrow, title }) => html`
 	<div class="home-header">
@@ -12,7 +12,7 @@ export const homeHeader = ({ eyebrow, title }) => html`
 	</div>
 `
 
-homeHeader.style = css`
+homeHeader.style = scss`
 	.home-header {
 		align-items: center;
 		display: flex;

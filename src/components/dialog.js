@@ -1,4 +1,4 @@
-import { css, html } from 'cuirk'
+import { html, scss } from 'cuirk'
 
 export const dialog = ({ id, trigger, children }) => html`
 	<div class="dialog">
@@ -16,7 +16,7 @@ export const dialog = ({ id, trigger, children }) => html`
 	</div>
 `
 
-dialog.style = css`
+dialog.style = scss`
 	.dialog {
 		> button {
 			background: transparent;

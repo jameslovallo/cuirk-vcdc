@@ -1,4 +1,4 @@
-import { css, html, when } from 'cuirk'
+import { html, scss, when } from 'cuirk'
 import { icon } from './icon.js'
 
 export const iconLink = ({ icon: path, title, description, href }) => html`
@@ -13,7 +13,7 @@ export const iconLink = ({ icon: path, title, description, href }) => html`
 	</li>
 `
 
-iconLink.style = css`
+iconLink.style = scss`
 	.icon-link a {
 		align-items: center;
 		color: inherit;

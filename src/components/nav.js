@@ -1,4 +1,4 @@
-import { css, html, loop } from 'cuirk'
+import { html, loop, scss } from 'cuirk'
 import links from '../data/nav.js'
 import { dialog } from './dialog.js'
 import { icon } from './icon.js'
@@ -28,7 +28,7 @@ export const nav = () => {
 	`
 }
 
-nav.style = css`
+nav.style = scss`
 	nav {
 		background: var(--nav-bg, black);
 		color: var(--nav-color, white);

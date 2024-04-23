@@ -1,4 +1,4 @@
-import { css, html } from 'cuirk'
+import { html, scss } from 'cuirk'
 import { grid } from './grid.js'
 
 export const flyer = () => html`
@@ -52,7 +52,7 @@ export const flyer = () => html`
 	</section>
 `
 
-flyer.style = css`
+flyer.style = scss`
 	.flyer {
 		--teal: #92d5da;
 		background: black url(/src/images/fundraiser/tile.png);
