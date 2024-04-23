@@ -1,0 +1,100 @@
+:root {
+	--primary: dodgerblue;
+	color-scheme: light dark;
+	@media (prefers-color-scheme: dark) {
+		background: #111;
+	}
+}
+
+:root,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+svg {
+	display: block;
+}
+
+main {
+	margin: 0 auto 3rem;
+	max-width: 70ch;
+	padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.5;
+	margin: 1.25em 0 1rem;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+p {
+	line-height: 1.75;
+}
+
+ol,
+ul {
+	line-height: 1.66;
+}
+
+a {
+	color: dodgerblue;
+}
+
+code:not([class*='language-']) {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+pre:has([class*='language-']) {
+	background: var(--color-bg-code-block);
+	font-size: 13px;
+	margin: 1em 0;
+	overflow-x: auto;
+	padding: 0.75rem;
+}
+
+table {
+	border: 1px solid rgba(155, 155, 155, 0.5);
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+
+th,
+td {
+	border: 1px solid rgba(155, 155, 155, 0.5);
+	padding: 0.5rem;
+}
+
+form button {
+	background: var(--primary);
+	border: none;
+	border-radius: 3rem;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	width: min-content;
+}

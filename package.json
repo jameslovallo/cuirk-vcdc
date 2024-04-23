@@ -1,0 +1,14 @@
+{
+	"name": "something",
+	"author": "James Lovallo",
+	"type": "module",
+	"dependencies": {
+		"@mdi/js": "^7.4.47",
+		"browser-sync": "^3.0.2",
+		"cuirk": "^0.0.30"
+	},
+	"scripts": {
+		"build": "npx build",
+		"dev": "browser-sync dist --watch & nodemon --watch src --watch pages --exec 'npm run build'"
+	}
+}
