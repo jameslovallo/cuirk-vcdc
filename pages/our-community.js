@@ -25,7 +25,7 @@ ${linkList([
 		icon: 'TooltipCheck',
 		title: 'Explore the Development Map',
 		description: 'Locations, media, and developer survey',
-		link: '/development',
+		href: '/development',
 	},
 ])}
 

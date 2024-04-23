@@ -33,12 +33,13 @@ dialog.style = css`
 			bottom: 0;
 			display: flex;
 			justify-content: center;
-			height: 100%;
+			min-height: 100%;
 			left: 0;
+			margin: 0;
 			position: fixed;
 			right: 0;
 			top: 0;
-			width: 100%;
+			min-width: 100%;
 			z-index: 99999;
 
 			> .content {
