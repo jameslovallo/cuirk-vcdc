@@ -5,6 +5,10 @@ export const homeHeader = ({ eyebrow, title }) => html`
 		<img src="/src/images/global/logo.svg" />
 		<div>
 			<h1><small>${eyebrow}</small>${title}</h1>
+			<c-typer
+				sentence="Stronger neighborhoods through"
+				words="equity, inclusion, diversity"
+			></c-typer>
 		</div>
 	</div>
 `
@@ -14,15 +18,23 @@ homeHeader.style = css`
 		align-items: center;
 		display: flex;
 		flex-flow: row wrap;
+		gap: 2rem;
 		margin-top: 3rem;
 
 		img {
-			margin-right: 3rem;
 			width: 200px;
 		}
 
 		h1 {
 			display: grid;
+			font-size: 3rem;
+			line-height: 1;
+			margin: 0 0 1rem;
+
+			small {
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
 		}
 	}
 `

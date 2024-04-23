@@ -7,10 +7,10 @@ export const footer = () => html`
 		>
 			Subscribe to Our Newsletter
 		</a>
-		<p>
+		<small>
 			© ${new Date().getFullYear()} The Villages of Detroit. All Rights
 			Reserved.
-		</p>
+		</small>
 	</footer>
 `
 

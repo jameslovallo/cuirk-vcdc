@@ -1,11 +1,25 @@
 import { loop, md } from 'cuirk'
-import { card, flyer, grid, homeHeader } from '../src/components/index.js'
+import {
+	card,
+	flyer,
+	grid,
+	homeHeader,
+	sponsorList,
+} from '../src/components/index.js'
 
 export const meta = {
 	scripts: [
 		{
 			type: 'module',
 			src: '/src/islands/donation-meter.js',
+		},
+		{
+			type: 'module',
+			src: '//unpkg.com/cuick-dev/components/typer.js',
+		},
+		{
+			type: 'module',
+			src: '//unpkg.com/cuick-dev/components/youtube.js',
 		},
 	],
 }
@@ -39,7 +53,9 @@ In January 2025, we will begin enrolling another cohort of ten households to Kee
 
 ${flyer()}
 
-## We Are The Villages
+${sponsorList()}
+
+<c-youtube vid="pcH2KAH6F-4"></c-youtube>
 
 ## About Us
 

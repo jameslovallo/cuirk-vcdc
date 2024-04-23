@@ -1,6 +1,6 @@
 :root {
 	--primary: dodgerblue;
-	color-scheme: light dark;
+	color-scheme: dark;
 	@media (prefers-color-scheme: dark) {
 		background: #111;
 	}
