@@ -15,4 +15,8 @@ export default [
 		image: '/src/images/sponsors/shepherd.png',
 		href: 'http://lscgallery.com/',
 	},
+	{
+		image: '/src/images/sponsors/sister-pie.png',
+		href: 'https://www.sisterpie.com/',
+	},
 ]

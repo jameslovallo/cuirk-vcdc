@@ -55,7 +55,7 @@ export default window.addEventListener('load', () => {
 					const dialog = document.createElement('dialog')
 					div.appendChild(dialog)
 					// build survey markup
-					let surveyMarkup = /* html */ `<h3>Developer Survey Response</h3>`
+					let surveyMarkup = ''
 					for (let i = 1; i < questions.length; i++) {
 						const question = questions[i].trim()
 						const punc =
@@ -74,7 +74,8 @@ export default window.addEventListener('load', () => {
 					// set dialog markup
 					dialog.innerHTML = /* html */ `
           <div class="content">
-          	<h2>${title}</h2>
+          	<h2 style="margin: 0">${title}</h2>
+						<p style="margin: 0">Developer Survey Response</p>
 						<div class="scroll">
 							${mediaHTML ? mediaHTML : ''}
 							${surveyMarkup}

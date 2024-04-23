@@ -31,6 +31,25 @@ export const body = md`
 		right: 0;
 		top: 3rem;
 	}
+	.question {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.bubble {
+		border: 1px solid rgba(155, 155, 155, 0.5);
+		border-radius: 1rem;
+		display: inline-block;
+		max-width: 66%;
+		padding: 0.75rem;
+	}
+	.question .bubble {
+		background: var(--surface-heavy);
+		border-bottom-right-radius: 2px;
+		border-color: var(--primary);
+	}
+	.answer .bubble {
+		border-bottom-left-radius: 2px;
+	}
 	footer {
 		display: none;
 	}
