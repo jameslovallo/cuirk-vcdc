@@ -19,6 +19,7 @@ iconLink.style = css`
 		color: inherit;
 		display: flex;
 		gap: 1rem;
+		padding-right: 1rem;
 		position: relative;
 		text-decoration: none;
 
