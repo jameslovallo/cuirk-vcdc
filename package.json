@@ -9,6 +9,6 @@
 	},
 	"scripts": {
 		"build": "npx build",
-		"dev": "browser-sync dist --watch & nodemon --watch src --watch pages --exec 'npm run build'"
+		"dev": "browser-sync dist --watch & nodemon -e js,css,html --watch src --watch pages --exec 'npm run build'"
 	}
 }

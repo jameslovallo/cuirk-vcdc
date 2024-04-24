@@ -80,4 +80,10 @@ The Villages CDC is a non-profit organization dedicated to accelerating economic
 ## Get Involved
 
 ${grid(loop(cards, card), '20ch')}
+
+<style>
+	h2 {
+		margin-top: 3rem;
+	}
+</style>
 `

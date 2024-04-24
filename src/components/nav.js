@@ -15,7 +15,7 @@ export const nav = () => {
 					id: 'nav',
 					trigger: icon({ name: 'Menu' }),
 					children: html`
-						<div style="display: grid; gap: 1rem; margin-bottom: 2rem;">
+						<div style="display: grid; margin-bottom: 1rem;">
 							${loop(links, link)}
 						</div>
 					`,
@@ -35,12 +35,11 @@ nav.style = scss`
 		display: grid;
 		gap: 1rem;
 		grid-template-columns: repeat(3, auto);
-		padding: 1rem;
+		padding: 0 .5rem;
 
 		> div {
 			align-items: center;
 			display: flex;
-			gap: 1rem;
 
 			&:not(:first-child):not(:last-child) {
 				justify-content: center;
@@ -56,15 +55,24 @@ nav.style = scss`
 				}
 			}
 
-			@media (min-width: 768px) {
-				.dialog {
+			.dialog {
+				@media (min-width: 768px) {
 					display: none;
+				}
+
+				> button {
+					padding: 0 .5rem;
 				}
 			}
 
 			a {
 				color: inherit;
+				padding: 1rem .5rem;
 				text-decoration: none;
+
+				&:hover {
+					background: #111;
+				}
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 :root {
 	--primary: dodgerblue;
-	background: #222;
+	background: #181818;
 	color-scheme: dark;
 }
 
@@ -41,7 +41,7 @@ h4,
 h5,
 h6 {
 	line-height: 1.5;
-	margin: 1.25em 0 1rem;
+	margin: 1.5em 0 1rem;
 }
 
 h3 {
