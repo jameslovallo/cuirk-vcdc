@@ -85,5 +85,8 @@ ${grid(loop(cards, card), '20ch')}
 	h2 {
 		margin-top: 3rem;
 	}
+	.card {
+		text-align: center;
+	}
 </style>
 `
