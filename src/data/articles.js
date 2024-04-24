@@ -9,7 +9,7 @@ export default [
 		title:
 			'Resilient Neighborhoods: East Side Detroit groups are taking a stand against illegal dumping',
 		publisher: 'modelD',
-		href: 'hhttps://www.modeldmedia.com/features/resilient-neighborhoods-east-side-detroit-illegal-dumping.aspx',
+		href: 'https://www.modeldmedia.com/features/resilient-neighborhoods-east-side-detroit-illegal-dumping.aspx',
 	},
 	{
 		title:

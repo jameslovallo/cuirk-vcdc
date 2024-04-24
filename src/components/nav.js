@@ -33,6 +33,7 @@ nav.style = scss`
 		background: var(--nav-bg, black);
 		color: var(--nav-color, white);
 		display: grid;
+		font-size: 15px;
 		gap: 1rem;
 		grid-template-columns: repeat(3, auto);
 		padding: 0 .5rem;
