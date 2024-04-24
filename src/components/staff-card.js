@@ -7,7 +7,7 @@ export const staffCard = ({ name, description, index }) =>
 		trigger: html`
 			<span class="staff-card">
 				<img src="/src/images/staff/${name}.webp" />
-				<h3>${name}</h3>
+				<span>${name}</span>
 			</span>
 		`,
 		children: html` <p>${description}</p> `,
@@ -19,7 +19,6 @@ staffCard.style = scss`
 		border: 1px solid rgba(155, 155, 155, 0.2);
 		color: white;
 		display: block;
-		text-align: center;
 
 		img {
 			aspect-ratio: 2 / 3;
@@ -28,7 +27,10 @@ staffCard.style = scss`
 		}
 		
 		span {
+			display: block;
+			letter-spacing: 1px;
 			margin: 1rem 0;
+			text-align: center;
 		}
 	}
 `
