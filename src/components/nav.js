@@ -63,12 +63,20 @@ nav.style = scss`
 				> button {
 					padding: 0 .5rem;
 				}
+
+				a {
+					font-size: 1.5rem;
+					padding: .5rem 0;
+				}
 			}
 
 			a {
 				color: inherit;
-				padding: 1rem .5rem;
 				text-decoration: none;
+			}
+
+			> a {
+				padding: 1rem .5rem;
 
 				&:hover {
 					background: #111;
