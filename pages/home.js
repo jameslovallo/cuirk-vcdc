@@ -62,7 +62,7 @@ ${sponsorList()}
 ## We Are The Villages
 
 <div style="align-items: center; display: flex; flex-flow: row wrap; gap: 1rem;">
-	<c-youtube vid="F5jNdIujCr4" style="flex-basis: 300px; flex-grow: 1;"></c-youtube>
+	<c-youtube vid="8vLRWEoQLQo" style="flex-basis: 300px; flex-grow: 1;"></c-youtube>
 	${linkList([
 		{ icon: 'Sprout', title: 'Strategic Plan', href: '/what-we-do' },
 		{
