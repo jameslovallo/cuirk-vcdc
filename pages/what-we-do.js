@@ -29,6 +29,8 @@ The Villages CDC accomplishes its mission by convening a variety of stakeholders
 
 ${grid(loop(services, card))}
 
+<br>
+
 ## 2024 Strategic Plan
 
 ### Strategic Focus #1: Events & Engagement
