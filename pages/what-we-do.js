@@ -134,5 +134,9 @@ ${grid(loop(services, card))}
 			padding: 1rem;
 		}
 	}
+
+	main > h3 {
+		border-bottom: 1px solid var(--primary);
+	}
 </style>
 `
