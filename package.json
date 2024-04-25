@@ -4,11 +4,11 @@
 	"type": "module",
 	"dependencies": {
 		"@mdi/js": "^7.4.47",
-		"cuirk": "^0.0.32",
-		"vite": "^5.2.10"
+		"browser-sync": "^3.0.2",
+		"cuirk": "^0.0.32"
 	},
 	"scripts": {
 		"build": "npx build",
-		"dev": "vite dist & nodemon -e js,css,html --watch src --watch pages --exec 'npm run build'"
+		"dev": "browser-sync dist --watch & nodemon -e js,css,html --watch src --watch pages --exec 'npm run build'"
 	}
 }
