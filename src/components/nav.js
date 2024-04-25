@@ -41,12 +41,6 @@ nav.style = scss`
 		> div {
 			align-items: center;
 			display: flex;
-	 
-	    &:first-child {
-		    > a {
-			    font-family: serif;
-				}
-			}
 
 			&:not(:first-child):not(:last-child) {
 				justify-content: center;
