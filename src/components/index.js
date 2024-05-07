@@ -1,4 +1,4 @@
-export { icon, linkList, modal, nav } from 'cuirk/components/index.js'
+export { icon, linkList, modal, nav, youtube } from 'cuirk/components/index.js'
 export { card } from './card.js'
 export { contactForm } from './contact-form.js'
 export { flyer } from './flyer.js'

@@ -4,6 +4,7 @@ import {
 	grid,
 	homeHeader,
 	linkList,
+	youtube,
 } from '../src/components/index.js'
 import links from '../src/data/links.js'
 
@@ -16,10 +17,6 @@ export const meta = {
 		{
 			type: 'module',
 			src: '//unpkg.com/cuick-dev/components/typer.js',
-		},
-		{
-			type: 'module',
-			src: '//unpkg.com/cuick-dev/components/youtube.js',
 		},
 	],
 }
@@ -48,7 +45,7 @@ ${homeHeader({ eyebrow: 'Welcome to', title: 'The Villages' })}
 ## We Are The Villages
 
 <div style="align-items: center; display: flex; flex-flow: row wrap; gap: 1rem;">
-	<c-youtube vid="8vLRWEoQLQo" style="flex-basis: 300px; flex-grow: 1;"></c-youtube>
+	${youtube({ id: '8vLRWEoQLQo', width: '300px' })}
 	${linkList([
 		{ icon: 'Sprout', title: 'Strategic Plan', href: '/what-we-do' },
 		{
