@@ -1,4 +1,4 @@
-import { componentStyles, html } from 'cuirk'
+import { componentScripts, componentStyles, html } from 'cuirk'
 import * as components from '../components/index.js'
 import navLinks from '../data/nav.js'
 
@@ -18,6 +18,8 @@ export default ({ meta, children }) => {
 				${nav({ links: navLinks })}
 				<main>${children}</main>
 				${footer({ links: navLinks })}
+				<!-- component scripts -->
+				${componentScripts(components)}
 			</body>
 		</html>
 	`

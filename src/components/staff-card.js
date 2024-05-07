@@ -1,24 +1,25 @@
 import { html, scss } from 'cuirk'
-import { dialog } from './dialog.js'
+import { modal } from '../components/index.js'
 
 export const staffCard = ({ name, description, index }) =>
-	dialog({
-		id: `staff-card-${index}`,
+	modal({
 		trigger: html`
-			<span class="staff-card">
+			<button class="staff-card">
 				<img src="/src/images/staff/${name}.webp" />
 				<span>${name}</span>
-			</span>
+			</button>
 		`,
 		children: html` <p>${description}</p> `,
 	})
 
 staffCard.style = scss`
 	.staff-card {
-		background: black;
-		border: 1px solid rgba(155, 155, 155, 0.2);
-		color: white;
+		background: var(--c-surface);
+		border: var(--c-border);
+		color: var(--c-surface-color);
+		cursor: pointer;
 		display: block;
+		padding: 0;
 
 		img {
 			aspect-ratio: 2 / 3;

@@ -14,7 +14,7 @@ press.style = scss`
 	.press {
 		
 		&:not(:last-child) {
-			border-bottom: 1px solid rgba(155, 155, 155, 0.5);
+			border-bottom: var(--c-border);
 			margin-bottom: 1.5rem;
 			padding-bottom: 1.5rem;
 		}

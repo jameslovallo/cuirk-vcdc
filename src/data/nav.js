@@ -35,10 +35,12 @@ export default [
 		title: 'Contact Us',
 		href: '/contact',
 		position: 'end',
+		classList: ['show-on-mobile'],
 	},
 	{
 		title: 'Donate',
 		href: links.donate,
 		position: 'end',
+		classList: ['show-on-mobile'],
 	},
 ]

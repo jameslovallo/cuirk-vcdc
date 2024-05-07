@@ -5,8 +5,8 @@ export const card = ({ image, title, description, href }) => {
 	return html`
 		<${tag} class="card" ${href ? `href="${href}"` : ''}>
 			${when(image, html`<img src="${image}" />`)}
-			${when(title, html`<h3>${title}</h3>`)}
-			${when(description, html`<p>${description}</p>`)}
+			${when(title, html`<p>${title}</p>`)}
+			${when(description, html`<small>${description}</small>`)}
 		</${tag}>
 	`
 }
@@ -14,10 +14,10 @@ export const card = ({ image, title, description, href }) => {
 card.style = scss`
 	.card {
 		--card-padding: 0.75rem;
-		background: var(--card-bg, black);
-		border: var(--card-border, 1px solid rgba(155, 155, 155, 0.2));
-		border-radius: var(--card-br, 0.25rem);
-		color: var(--card-color, white);
+		background: var(--c-surface);
+		border: var(--c-border);
+		border-radius: .25rem;
+		color: var(--c-surface-color);
 		display: grid;
 		grid-template-rows: auto 1fr;
 		padding-bottom: var(--card-padding);

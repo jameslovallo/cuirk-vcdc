@@ -12,8 +12,8 @@ export const footer = () => html`
 
 footer.style = scss`
 	footer {
-		background: var(--footer-bg, black);
-		color: var(--footer-color, white);
+		background: var(--c-surface);
+		color: var(--c-surface-color);
 		display: grid;
 		gap: 1rem;
 		justify-content: center;

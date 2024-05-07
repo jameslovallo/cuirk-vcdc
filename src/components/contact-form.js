@@ -60,7 +60,7 @@ contactForm.style = scss`
 				padding: 0.5rem;
 
 				&:focus {
-					border-bottom: 2px solid var(--primary);
+					border-bottom: 2px solid var(--c-primary);
 					outline: none;
 				}
 			}

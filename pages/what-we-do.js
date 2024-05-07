@@ -138,7 +138,7 @@ ${grid(loop(services, card))}
 	}
 
 	main > h3 {
-		border-bottom: 1px solid var(--primary);
+		border-bottom: 1px solid var(--c-primary);
 	}
 </style>
 `

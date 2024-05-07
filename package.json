@@ -4,7 +4,7 @@
 	"type": "module",
 	"dependencies": {
 		"@mdi/js": "^7.4.47",
-		"cuirk": "^0.0.38"
+		"cuirk": "^0.0.59"
 	},
 	"scripts": {
 		"build": "cuirk build",

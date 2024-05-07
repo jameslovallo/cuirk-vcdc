@@ -45,7 +45,7 @@ export const body = md`
 	.question .bubble {
 		background: var(--surface-heavy);
 		border-bottom-right-radius: 2px;
-		border-color: var(--primary);
+		border-color: var(--c-primary);
 	}
 	.answer .bubble {
 		border-bottom-left-radius: 2px;
