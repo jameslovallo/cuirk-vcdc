@@ -21,6 +21,14 @@ staffCard.style = scss`
 		display: block;
 		padding: 0;
 
+		&:hover {
+			background: var(--c-primary-hover);
+		}
+
+		&:active {
+			background: var(--c-primary-active);
+		}
+
 		img {
 			aspect-ratio: 2 / 3;
 			max-width: 100%;

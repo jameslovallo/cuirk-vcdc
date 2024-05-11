@@ -3,7 +3,7 @@
 	"author": "James Lovallo",
 	"type": "module",
 	"dependencies": {
-		"cuirk": "^0.0.62"
+		"cuirk": "^0.0.67"
 	},
 	"scripts": {
 		"build": "cuirk build",

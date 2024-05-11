@@ -1,3 +1,29 @@
+:root {
+	background: #fafcfe;
+	color-scheme: light dark;
+	font-family: sans-serif;
+}
+
+:root,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		background: #131519;
+	}
+	body {
+		--c-border: 1px solid #222;
+		--c-surface: black;
+		--c-surface-color: white;
+	}
+}
+
 main {
 	margin: 0 auto 3rem;
 	max-width: 70ch;

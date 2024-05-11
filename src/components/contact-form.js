@@ -59,6 +59,10 @@ contactForm.style = scss`
 				font-size: 1rem;
 				padding: 0.5rem;
 
+				@media (prefers-color-scheme: dark) {
+					background: #222;
+				}
+
 				&:focus {
 					border-bottom: 2px solid var(--c-primary);
 					outline: none;
