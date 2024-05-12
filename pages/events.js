@@ -1,4 +1,4 @@
-import { html, md } from 'cuirk'
+import { md } from 'cuirk'
 
 export const meta = {
 	title: 'Events',
@@ -13,11 +13,16 @@ export const meta = {
 export const body = md`
 # Events
 
-${html`
-	<snappy-calendar
-		calendar="thevillagesofdetroit.com_kotkvbjdq9h3gf370nts69dgv0%40group.calendar.google.com"
-		key="AIzaSyC-wbQGNzMWBi6ouRFahaHF_lXzB0IZ7Ow"
-		format="list"
-	></snappy-calendar>
-`}
+<snappy-calendar
+calendar="thevillagesofdetroit.com_kotkvbjdq9h3gf370nts69dgv0%40group.calendar.google.com"
+key="AIzaSyC-wbQGNzMWBi6ouRFahaHF_lXzB0IZ7Ow"
+format="list"></snappy-calendar>
+
+<style>
+	snappy-calendar::part(event-name) {
+		color: inherit;
+		text-decoration: underline;
+		text-decoration-color: var(--c-primary);
+	}
+</style>
 `

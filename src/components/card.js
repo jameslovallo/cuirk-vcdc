@@ -19,17 +19,19 @@ card.style = scss`
 		grid-template-rows: auto 1fr;
 		padding-bottom: var(--card-padding);
 		text-decoration: none;
-
-		&:hover {
-			background: var(--c-primary-hover);
-		}
-
-		&:active {
-			background: var(--c-primary-active);
-		}
 		
 		> *:not(img) {
 			margin: var(--card-padding) var(--card-padding) 0;
 		}
+	}
+
+	a.card {
+		&:hover {
+				background: var(--c-primary-hover);
+			}
+
+			&:active {
+				background: var(--c-primary-active);
+			}
 	}
 `

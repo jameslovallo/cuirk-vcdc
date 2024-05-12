@@ -127,14 +127,14 @@ ${grid(loop(services, card))}
 
 <style>
 	.card {
-		background: white;
-		color: black;
 		text-align: center;
-		img {
-			aspect-ratio: 4/3;
-			object-position: bottom;
-			padding: 1rem;
-		}
+	}
+
+
+	.card > img {
+		aspect-ratio: 4/3;
+		object-position: bottom;
+		padding: 1rem;
 	}
 
 	main > h3 {
