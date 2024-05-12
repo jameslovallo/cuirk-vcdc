@@ -1,5 +1,5 @@
 import { html, scss } from 'cuirk'
-import { grid } from './grid.js'
+import { button, grid, icon } from './index.js'
 
 export const contactForm = () => html`
 	<form method="POST" netlify netlify-honeypot="bot-field">
@@ -28,7 +28,11 @@ export const contactForm = () => html`
 			<span>Your Message<sup></sup></span>
 			<textarea name="message" required></textarea>
 		</label>
-		<button type="submit">Send</button>
+		${button({
+			children: icon({ name: 'Send' }) + 'Send',
+			type: 'submit',
+			shape: 'pill',
+		})}
 	</form>
 `
 
@@ -55,7 +59,8 @@ contactForm.style = scss`
 			input,
 			textarea {
 				border: none;
-				border-bottom: 2px solid transparent;
+				border-bottom: var(--c-border);
+				border-bottom-width: 2px;
 				font-size: 1rem;
 				padding: 0.5rem;
 
