@@ -25,11 +25,6 @@ export default [
 			'Mac Farr, Originally from Jackson, Michigan, Mac attended Michigan State University’s James Madison College.  In 2004, after graduating, he moved to New York where he lived for a decade working in the financial services sector.  Moving to Detroit in 2012, he worked in Mike Duggan’s first campaign for mayor, and in the Mayor’s office during the bankruptcy.  He began with the Villages in 2015.  His work has focused on the development of infrastructure, housing stabilization, transportation, policy advocacy and community engagement.  Mac’s achievements include the development of the housing stabilization program Keep It In the Family, raising $1.5 million since getting to the organization and getting City policies in place such as the alley restoration program as well as the installation of speed humps.  Mac lives in Pingree Park and is a member of the Indian Village Tennis Club and Jefferson Avenue Presbyterian Church.',
 	},
 	{
-		name: 'Alexis Mann',
-		description:
-			'Alexis Mann, our program manager, is a native of Detroit and lives in the St. Clair Heights neighborhood.  Prior to joining the nonprofit sector Alexis devoted herself to her community as the president of Living the Good Life Community Association for the past three years. This devotion turned into a passion to help as many residents as possible obtain intergenerational wealth.',
-	},
-	{
 		name: 'David Preuss',
 		description:
 			'Br. David Preuss was born in Detroit were his family owned a pharmacy. Joining the Capuchin religious community in 1969, he worked in a variety of ministries mainly in the African-American communities of Milwaukee and Detroit. He became pastor of St. Charles Church (from 1987-2008) and moved to St. Bonaventure(2016 to present) to work in the ministries there. He was on the board of Islandview Village Development Corporation that built affordable housing on Townsend and Baldwin streets, as well as several smaller projects.',
