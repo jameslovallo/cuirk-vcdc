@@ -54,4 +54,8 @@ export default [
 		description:
 			"Rob Gregory, our Treasurer, is a native of Detroit and resides in the East Village neighborhood, where he renovated his home in 2022. Rob holds a Bachelor’s in Finance from Michigan State University, a Master’s of Business Administration in Finance and International Business from Wayne State University, and is a Certified Treasury Professional (CTP) Charterholder. Rob has worked his entire professional career in the City of Detroit with Rocket Companies. He has occupied diverse roles within Rocket’s Capital Markets and Finance teams, ranging from bond structuring and trading to overseeing the company's secured funding portfolio. Currently, Rob leads the Pricing Strategy function within Rocket’s Capital Markets Group. Rob has deep familial roots within the villages of Detroit as well as the development of downtown Detroit's parks and urban placemaking. Rob also serves on the board of directors at The East Village Association.",
 	},
-]
+	{
+		name: 'Shayna Moorer',
+		description: 'Shayna Moorer is a Detroit native born and raised right here in the, spending equal shares of her life on both the east and west side. She was educated at Osborn High School as well as Wayne State. Shayna is a member of Zeta Phi Beta, and is the proud mother to her son Brice, age 11. Shayna has a passion for community, healthcare and development.'
+	}
+].sort((a, b) => a.name.localeCompare(b.name))
