@@ -1,12 +1,12 @@
-import { loop, md } from 'cuirk'
-import { card, grid } from '../src/components/index.js'
-import services from '../src/data/services.js'
+import { loop, md } from "cuirk";
+import { card, grid } from "../components/index.js";
+import services from "../data/services.js";
 
 export const meta = {
-	title: 'What We Do',
+	title: "What We Do",
 	description:
-		'The Villages CDC supports and advocates for the development of inclusive places and neighborhoods within The Villages.',
-}
+		"The Villages CDC supports and advocates for the development of inclusive places and neighborhoods within The Villages.",
+};
 
 export const body = md`
 # What We Do
@@ -141,4 +141,4 @@ ${grid(loop(services, card))}
 		border-bottom: 1px solid var(--c-primary);
 	}
 </style>
-`
+`;

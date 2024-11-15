@@ -1,10 +1,10 @@
-import { html, md } from 'cuirk'
-import { contactForm, grid, linkList } from '../src/components/index.js'
-import contactInfo from '../src/data/contact.js'
+import { html, md } from "cuirk";
+import { contactForm, grid, linkList } from "../components/index.js";
+import contactInfo from "../data/contact.js";
 
 export const meta = {
-	title: 'Contact Us',
-}
+	title: "Contact Us",
+};
 
 export const body = md`
 # Contact Us
@@ -25,4 +25,4 @@ ${grid(
 ## Leave a Message
 
 ${contactForm()}
-`
+`;
