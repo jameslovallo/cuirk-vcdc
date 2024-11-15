@@ -44,17 +44,20 @@ ${homeHeader({ eyebrow: "Welcome to", title: "The Villages" })}
 
 ## We Are The Villages
 
-<div style="align-items: center; display: flex; flex-flow: row wrap; gap: 1rem;">
-	${youtube({ id: "8vLRWEoQLQo", width: "300px" })}
-	${linkList([
-		{ icon: "Sprout", title: "Strategic Plan", href: "/what-we-do" },
-		{
-			icon: "EmailFast",
-			title: "Our Newsletter",
-			href: links.newsletter,
-		},
-	])}
-</div>
+${grid(
+	[
+		youtube({ id: "8vLRWEoQLQo" }),
+		linkList([
+			{ icon: "Sprout", title: "Strategic Plan", href: "/what-we-do" },
+			{
+				icon: "EmailFast",
+				title: "Our Newsletter",
+				href: links.newsletter,
+			},
+		]),
+	].join(""),
+	"30ch"
+)}
 
 ## About Us
 
