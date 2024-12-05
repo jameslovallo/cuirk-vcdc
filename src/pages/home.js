@@ -16,7 +16,7 @@ export const meta = {
 		},
 		{
 			type: "module",
-			src: "//unpkg.com/cuick-dev/components/typer.js",
+			src: "https://unpkg.com/ardi@0.3.20/components/typer.js",
 		},
 	],
 };
