@@ -12,7 +12,7 @@ export const meta = {
 	scripts: [
 		{
 			type: "module",
-			src: "../islands/developer-map.js",
+			src: "/src/islands/developer-map.js",
 		},
 		{
 			type: "module",
