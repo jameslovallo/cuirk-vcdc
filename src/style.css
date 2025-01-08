@@ -24,12 +24,16 @@ body {
 	}
 }
 
-nav {
+nav .button {
+	font-size: 14px;
+}
+
+nav .button:not(.filled) {
 	--c-primary: #fff;
 }
 
-nav .button {
-	font-size: 14px;
+nav [method="dialog"] {
+	justify-content: center;
 }
 
 main {
