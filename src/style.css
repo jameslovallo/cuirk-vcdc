@@ -25,7 +25,13 @@ body {
 }
 
 nav {
-	--c-primary: #fff;
+	--c-primary: black;
+}
+
+@media (prefers-color-scheme: dark) {
+	nav {
+		--c-primary: white;
+	}
 }
 
 nav .button {
