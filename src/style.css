@@ -35,7 +35,7 @@ nav {
 }
 
 nav > div .modal .trigger .button {
-	--c-primary: unset;
+	--c-primary: unset !important;
 }
 
 nav [method="dialog"] {
