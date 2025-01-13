@@ -32,6 +32,9 @@ nav {
 	nav {
 		--c-primary: white;
 	}
+	nav > div .modal .trigger .button {
+		--c-primary: var(--nav-color, black);
+	}
 }
 
 nav [method="dialog"] {
