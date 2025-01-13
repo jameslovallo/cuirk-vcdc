@@ -32,9 +32,10 @@ nav {
 	nav {
 		--c-primary: white;
 	}
-	nav > div .modal .trigger .button {
-		--c-primary: var(--nav-color, black);
-	}
+}
+
+nav > div .modal .trigger .button {
+	--c-primary: unset;
 }
 
 nav [method="dialog"] {
