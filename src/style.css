@@ -34,8 +34,8 @@ nav {
 	}
 }
 
-nav .button {
-	font-size: 14px;
+nav [method="dialog"] {
+	justify-content: center;
 }
 
 main {
