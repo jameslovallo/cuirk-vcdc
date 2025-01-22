@@ -42,5 +42,9 @@ export default [
 	{
 		name: 'Shayna Moorer',
 		description: 'Shayna Moorer is a Detroit native born and raised right here in the, spending equal shares of her life on both the east and west side. She was educated at Osborn High School as well as Wayne State. Shayna is a member of Zeta Phi Beta, and is the proud mother to her son Brice, age 11. Shayna has a passion for community, healthcare and development.'
-	}
+	},
+    {
+        name: 'Steve Economy',
+        description: 'Steve Economy owned and operated Standard Barber Company, a Detroit barbershop for over a decade. He is also the Senior Director of Member Engagement at The Conference Board Human Capital Center, where he collaborates with business leaders to address human capital challenges. A Detroit resident for 10+ years, Steve lives in the Villages with his wife and two boys, ages 7 and 9. Stephen came on the board of the Villages CDC in January of 2025 and currently serves as our board secretary.',
+    }
 ].sort((a, b) => a.name.localeCompare(b.name))
