@@ -1,4 +1,4 @@
-import { loop, md } from "cuirk";
+import { loop, md } from "recluse";
 import { card, grid } from "../components/index.js";
 import services from "../data/services.js";
 

@@ -1,4 +1,4 @@
-import { html, scss } from 'cuirk'
+import { html, scss } from 'recluse'
 
 export const press = ({ title, publisher, href }) => html`
 	<div class="press">

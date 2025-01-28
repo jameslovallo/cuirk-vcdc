@@ -1,4 +1,4 @@
-import { loop, md } from "cuirk";
+import { loop, md } from "recluse";
 import { grid, staffCard } from "../components/index.js";
 import staff from "../data/staff.js";
 

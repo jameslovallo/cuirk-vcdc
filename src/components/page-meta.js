@@ -1,4 +1,4 @@
-import { createTags, html } from 'cuirk'
+import { createTags, html } from 'recluse'
 import globalMeta from '../data/meta.js'
 
 export const pageMeta = (meta) => {

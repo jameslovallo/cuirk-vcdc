@@ -1,4 +1,4 @@
-import { css, html } from "cuirk";
+import { css, html } from "recluse";
 
 export const grid = (children, size = "30ch") =>
 	html`<div class="grid" style="--grid-size: ${size}">${children}</div>`;

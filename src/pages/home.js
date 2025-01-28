@@ -1,42 +1,42 @@
-import { loop, md } from "cuirk";
+import { loop, md } from "recluse";
 import {
-	card,
-	grid,
-	homeHeader,
-	linkList,
-	youtube,
+  card,
+  grid,
+  homeHeader,
+  linkList,
+  youtube,
 } from "../components/index.js";
 import links from "../data/links.js";
 
 export const meta = {
-	scripts: [
-		{
-			type: "module",
-			src: "/src/islands/donation-meter.js",
-		},
-		{
-			type: "module",
-			src: "https://unpkg.com/ardi@0.3.20/components/typer.js",
-		},
-	],
+  scripts: [
+    {
+      type: "module",
+      src: "/src/islands/donation-meter.js",
+    },
+    {
+      type: "module",
+      src: "https://unpkg.com/ardi@0.3.20/components/typer.js",
+    },
+  ],
 };
 
 const cards = [
-	{
-		title: "Volunteer",
-		image: "/src/images/home/volunteer.webp",
-		href: links.volunteer,
-	},
-	{
-		title: "Our Community",
-		image: "/src/images/home/community.webp",
-		href: "/our-community",
-	},
-	{
-		title: "Events",
-		image: "/src/images/home/events.webp",
-		href: "/events",
-	},
+  {
+    title: "Volunteer",
+    image: "/src/images/home/volunteer.webp",
+    href: links.volunteer,
+  },
+  {
+    title: "Our Community",
+    image: "/src/images/home/community.webp",
+    href: "/our-community",
+  },
+  {
+    title: "Events",
+    image: "/src/images/home/events.webp",
+    href: "/events",
+  },
 ];
 
 export const body = md`
@@ -45,18 +45,20 @@ ${homeHeader({ eyebrow: "Welcome to", title: "The Villages" })}
 ## We Are The Villages
 
 ${grid(
-	[
-		youtube({ id: "8vLRWEoQLQo" }),
-		linkList([
-			{ icon: "Sprout", title: "Strategic Plan", href: "/what-we-do" },
-			{
-				icon: "EmailFast",
-				title: "Our Newsletter",
-				href: links.newsletter,
-			},
-		]),
-	].join(""),
-	"30ch"
+  [
+    youtube({ id: "8vLRWEoQLQo" }),
+    linkList({
+      children: [
+        { icon: "Sprout", title: "Strategic Plan", href: "/what-we-do" },
+        {
+          icon: "EmailFast",
+          title: "Our Newsletter",
+          href: links.newsletter,
+        },
+      ],
+    }),
+  ].join(""),
+  "30ch"
 )}
 
 ## About Us

@@ -1,5 +1,6 @@
 :root {
-	background: #fafcfe;
+	--r-surface: white;
+	background: #eceff8;
 	color-scheme: light dark;
 	font-family: sans-serif;
 }
@@ -15,31 +16,18 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	:root {
+		--r-surface: black;
 		background: #131519;
 	}
-	body {
-		--c-border: 1px solid #222;
-		--c-surface: black;
-		--c-surface-color: white;
-	}
 }
 
-nav {
-	--c-primary: black;
+img, video {
+	display: block;
+	max-width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-	nav {
-		--c-primary: white;
-	}
-}
-
-nav > div .modal .trigger .button {
-	--c-primary: unset !important;
-}
-
-nav [method="dialog"] {
-	justify-content: center;
+.r-nav .r-primary.r-text {
+	color: inherit;
 }
 
 main {
@@ -77,7 +65,6 @@ ul {
 
 a {
 	color: currentColor;
-	text-decoration-color: var(--c-primary);
 }
 
 code:not([class*="language-"]) {

@@ -1,4 +1,4 @@
-import { loop, md } from "cuirk";
+import { loop, md } from "recluse";
 import { press } from "../components/index.js";
 import articles from "../data/articles.js";
 

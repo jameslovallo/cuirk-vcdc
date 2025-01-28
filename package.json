@@ -3,11 +3,11 @@
 	"author": "James Lovallo",
 	"type": "module",
 	"dependencies": {
-		"cuirk": "^0.1.0"
+		"recluse": "latest"
 	},
 	"scripts": {
-		"build": "cuirk build",
-		"dev": "cuirk dev",
+		"build": "recluse build",
+		"dev": "recluse dev",
 		"nuke": "rm -rf node_modules dist && npm i && npm run dev"
 	}
 }

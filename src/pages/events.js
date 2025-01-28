@@ -1,4 +1,4 @@
-import { md } from 'cuirk'
+import { md } from 'recluse'
 
 export const meta = {
 	title: 'Events',

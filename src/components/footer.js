@@ -1,4 +1,4 @@
-import { html, scss } from 'cuirk'
+import { html, scss } from 'recluse'
 import links from '../data/links.js'
 
 const date = new Date().getFullYear()

@@ -1,4 +1,4 @@
-import { html, scss } from 'cuirk'
+import { html, scss } from 'recluse'
 import { button, grid, icon } from './index.js'
 
 export const contactForm = () => html`

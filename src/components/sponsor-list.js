@@ -1,4 +1,4 @@
-import { html, loop, scss } from 'cuirk'
+import { html, loop, scss } from 'recluse'
 import sponsors from '../data/sponsors.js'
 
 const sponsorLink = ({ image, href }) => html`

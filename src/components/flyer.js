@@ -1,4 +1,4 @@
-import { html, scss } from 'cuirk'
+import { html, scss } from 'recluse'
 import { grid } from './grid.js'
 
 export const flyer = () => html`

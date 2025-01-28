@@ -1,4 +1,4 @@
-import { md } from "cuirk";
+import { md } from "recluse";
 import { linkList } from "../components/index.js";
 import links from "../data/links.js";
 import planning from "../data/planning.js";
@@ -10,28 +10,32 @@ We work with residents and businesses within the footprint that stretches from M
 
 ## Stay Informed
 
-${linkList([
-	{
-		icon: "EmailFast",
-		title: "Subscribe to Our Newsletter",
-		href: links.newsletter,
-	},
-])}
+${linkList({
+  children: [
+    {
+      icon: "EmailFast",
+      title: "Subscribe to Our Newsletter",
+      href: links.newsletter,
+    },
+  ],
+})}
 
 ## Development in The Villages
 
-${linkList([
-	{
-		icon: "TooltipCheck",
-		title: "Explore the Development Map",
-		description: "Locations, media, and developer survey",
-		href: "/development",
-	},
-])}
+${linkList({
+  children: [
+    {
+      icon: "TooltipCheck",
+      title: "Explore the Development Map",
+      description: "Locations, media, and developer survey",
+      href: "/development",
+    },
+  ],
+})}
 
 ## Planning Documents
 
-${linkList(planning)}
+${linkList({ children: planning })}
 
 ## Neighborhoods Map
 

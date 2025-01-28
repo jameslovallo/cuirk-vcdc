@@ -1,4 +1,4 @@
-import { html, scss } from 'cuirk'
+import { html, scss } from 'recluse'
 
 export const homeHeader = ({ eyebrow, title }) => html`
 	<div class="home-header">

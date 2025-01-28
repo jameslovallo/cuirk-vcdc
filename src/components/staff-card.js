@@ -1,20 +1,20 @@
-import { html, scss } from 'cuirk'
-import { modal } from '../components/index.js'
+import { html, scss } from "recluse";
+import { modal } from "../components/index.js";
 
 export const staffCard = ({ name, description, index }) =>
-	modal({
-		trigger: html`
-			<button class="staff-card">
-				<img src="/src/images/staff/${name}.webp" />
-				<span>${name}</span>
-			</button>
-		`,
-		children: html` <p>${description}</p> `,
-	})
+  modal({
+    open: html`
+      <button class="staff-card r-action">
+        <img src="/src/images/staff/${name}.webp" />
+        <span>${name}</span>
+      </button>
+    `,
+    children: html` <p>${description}</p> `,
+  });
 
 staffCard.style = scss`
 	.staff-card {
-		background: var(--c-surface);
+		background: var(--r-surface);
 		border: var(--c-border);
 		color: var(--c-surface-color);
 		cursor: pointer;
@@ -42,4 +42,4 @@ staffCard.style = scss`
 			text-align: center;
 		}
 	}
-`
+`;
