@@ -1,21 +1,21 @@
 export default [
 	{
-		alt: 'A man and a woman eating in a park with wine and lights.',
+		alt: 'A social gathering, men and women share drinks.',
 		image: '/src/images/services/fun.svg',
 		title: 'Events & Engagement',
 	},
 	{
-		alt: 'Construction workers building a house.',
+		alt: 'A woman seated with her feet up on a desk, planning new housing development.',
 		image: '/src/images/services/house.svg',
 		title: 'Housing',
 	},
 	{
-		alt: 'A diverse group of people collaborating on an organized kanban board.',
+		alt: 'A woman leaning against a large apartment building.',
 		image: '/src/images/services/lean.svg',
-		title: 'Infrastructure',
+		title: 'Neighborhoods',
 	},
 	{
-		alt: 'A busy city street.',
+		alt: 'A meandering street.',
 		image: '/src/images/services/park.svg',
 		title: 'Streets',
 	},

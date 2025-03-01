@@ -13,117 +13,167 @@ export const body = md`
 
 ## Our Mission
 
-The Villages CDC supports and advocates for the development of inclusive places and neighborhoods within The Villages.
+The Villages CDC promotes growth that represents, protects, respects and enriches our existing community.
 
 ## Our Vision
 
-The Villages will be known and respected throughout Detroit as the model for flourishing, integrated neighborhoods, known especially for their diversity, authenticity, and resourcefulness.
+We are advocates and an information resource to our stakeholders. We represent the full spectrum of our diverse neighborhoods, celebrating our uniqueness while promoting unity among our neighborhoods. We reflect the values of the community to developers and the city, and communicate opportunities for development back to the community.
 
 ## Our Values
 
-Inclusion, Diversity, Sustainability, Equity, Community Involvement Who We Serve Residents, neighborhood associations, and businesses within the footprint stretching from Mount Elliott Avenue in the west to St. Jean Street in the east, from Mack Avenue in the north going all the way down to the Detroit River. The Villages district consists of nearly 14,000 Detroiters.
+### Access & Inclusion
 
-## Our Programs and Services
+We believe community members should have clear, understandable information about growth opportunities and ways to influence our future. We make complex policy information accessible and create opportunities for civic participation by informing the community about ways to engage in policy-making and enforcement processes.
 
-The Villages CDC accomplishes its mission by convening a variety of stakeholders, including residents and businesses, to execute projects within the following areas:
+### Diversity
+
+We aim to foster a community that reflects our diverse mix of socioeconomic and demographic backgrounds. We actively include all groups in our activities and oversight structure to protect and expand this diversity.
+
+### Sustainability
+
+We believe in growth that sustains our community and enhances everyone’s quality of life. We promote growth that supports residents and improves quality of life without displacement.
+
+### Community Involvement
+
+We believe the existing community must play a role in shaping the future of our neighborhoods. We provide clear information and gather community input on decisions that impact our future.
+
+### Shared Responsibility
+
+We create opportunities for community members to understand growth opportunities and threats to our way of life, and to weigh in on decisions that affect both. It is also the responsibility of community members to engage in these opportunities and take ownership of our collective future.
+
+## Our Goals: 2025
 
 ${grid(loop(services, card))}
 
-<br>
-
-## 2024 Strategic Plan
-
 ### Strategic Focus #1: Events & Engagement
 
-#### Promote strong cross neighborhood connections through four events.
+**Promote Strong Cross Neighborhood Connections**
 
-- Spring cleanup (Motor City Makeover) (May 2024)
-- Spring Fundraiser (April 2024)
-- Fall Harvest along Kercheval (Sept 2024)
-- Fall Fundraiser (November 2024)
-- Holiday Party (December 2024)
+* Spring cleanup (Motor City Makeover)
+* Spring Fundraiser
+* Fall Harvest
+* Holiday Party
+* Quarterly engagement sessions
 
-#### Support neighborhood associations through monetary and technical assistance donations.
+**Support Neighborhood Associations**
 
-- Spend $1000 on event co-sponsorship (Dec 2024)
-- Share out events in newsletter and on website calendar (Ongoing)
-- Continue to implement the board ambassador program where board members attend neighborhood association meetings and talk about VCDC, track activities (Ongoing)
+* Spend $2,000 on event co-sponsorship and project support for neighborhood groups.
+* Continue to implement the board ambassador program where board members attend neighborhood association meetings and talk about VCDC, track activities.
 
-#### Engage 1000 neighbors through bi-weekly newsletter and virtual listening sessions.
+**Branding and Presence**
 
-- Host three in person strategy briefings with surveys (Sept 2024)
+* Conduct branding overhaul.
+* Upgrade and enhance our social media strategy in order to help begin driving engagement as well as promoting the Villages programming and mission.
 
 ### Strategic Focus #2: Housing
 
-#### Continue Keep It In the Family
+**Keep It In the Family**
 
-- Continue the second cohort of 10 households (June 2024)
-- Highlight the accomplishments of the program via engagement strategies (April 2024)
-- Secure long term funding for the program (Dec 2024)
+* Continue the fourth cohort of 15 households.
+* Highlight the accomplishments of the program via engagement strategies.
 
-#### Ongoing support of existing clients
+**Support of Existing Clients**
 
-- Continue to refer clients from the prior cohorts to new funding opportunities (On-going)
-- Track enrollments on an ongoing basis and document so as to be able to point to additional support provided via the program
+* Create CRM for past clients.
+* Connect with past clients to see if there are any other potential areas of collaboration.
 
-#### Affordable housing development
+**Affordable Housing Development**
 
-- Continue to explore options to create affordable housing in the Villages
-- Assess the viability of the following kinds of projects: construction of new missing middle units, buying and renovating an existing apartment building and the development of new, affordable multi-unit rental units
-- Begin to obtain seed funding for any one of the projects so as to be able to have funds on hand to commit to a project and to demonstrate viability to the City, other funders and lenders
+* Creation of a new project fund to build or acquire and renovate existing housing assets in the Villages.
+* Continue to assess potential partnerships with nonprofits or for profit developers to create housing opportunities.
 
-#### Housing policy advocacy
+**Housing Policy Advocacy**
 
-- Continue to collaborate with the Home Repair Working Group that is being convened by the City
+* Advocate for continued code enforcement so that vacant buildings cannot sit in perpetuity while the owners hope to strike it rich.
+* Advocate for legalizing missing middle housing in the revisions to the zoning ordinance.
+* Make a listing of housing repair and stabilization resources available to residents.
+* Work with residents in apartment high rises to advocate for safe and reliable elevator service.
 
-### Strategic Focus #3: Infrastructure
+### Strategic Focus #3: Neighborhoods
 
-#### Support neighborhood association infrastructure goals
+**Support Neighborhood Association Improvement Goals**
 
-- Gear engagement sessions towards the projects that revolve around their selections: DWSD matters, blight and traffic calming.
-- Create a specific and detailed work plan to be jointly administered between neighborhood supporters and VCDC for each of the three topics
+* Host \_\_ amount of engagement sessions towards the projects that revolve around their selections: (e.g., DWSD matters, blight and traffic calming.)
+* Create a specific and detailed work plan to be jointly administered between neighborhood supporters and VCDC for each of the three topics.
+* Work with residents, the Historic District Commission and BSEED to locate buildings that are being demolished by neglect.
 
-#### DWSD capital plan
+**DWSD Capital Plan**
 
-- Advocate for DWSD to include densely populated portions of the Villages in their program for lead service line replacements
-- Advocate for DWSD to include densely populated portions of the Villages in their program for water main and sewer line replacements
-- The goal of the foregoing should be to get either investments or concrete commitments made to upgrade DWSD infrastructure in the Villages
+* Advocate for DWSD to include densely populated portions of the Villages in their program for lead service line replacements, water main and sewer line replacements.
+* Work with residents on a tactical basis to get problematic hot spots, such as alley sinkholes, and broken fire hydrants repaired.
 
-#### Broadband assessment and strategy
+**Broadband Assessment and Strategy**
 
-- Create map of broadband speeds that are being delivered relative to what is being advertised
-- Use findings to make assessment if the Villages is obtaining what they are being promised
-- Utilize findings to advocate for, if necessary, enhanced infrastructure investments in our district
-- Find objective criteria to see what codes govern telecomm line construction and buildout
+* Create a map of broadband speeds that are being delivered relative to what is being advertised.
+* Use findings to make assessment if the Villages are obtaining what they are being promised.
+* Utilize findings to advocate for, if necessary, enhanced infrastructure investments in our district.
+* Find objective criteria to see what codes govern telecom line construction and buildout.
 
-#### DTE policy
+**Advocate DTE Policy**
 
-- Brief residents about upgrades coming to the Villages both in the areas of gas main renewal and overhead line upgrades
-- Continue to advocate against rate hikes for DTE
+* Advocate for continued prioritization of the Villages footprint in DTE’s capital upgrades plan.
+* Continue to advocate against rate hikes for DTE.
+
+**Support Small Business**
+
+* Begin gathering local business owners for engagement sessions.
+* Build out engagement strategy based on initial feedback.
+* Create small projects that we can execute this first year to build good will and develop proficiency in this area.
 
 ### Strategic Focus #4: Streets
 
-#### Traffic calming
+**Traffic Calming**
 
-- Work with the Department of Public Works (DPW) to get speed tables installed at key intersections in the Villages
+* Work with neighborhood groups to identify needed traffic calling interventions and develop plans for engagement with DPW.
 
-#### One way street conversions
+**One Way Street Conversions**
 
-- Advocate for DPW to convert East Vernor Highway and Charlevoix Avenue to two way streets
+* Advocate for DPW to convert East Vernor Highway and Charlevoix Avenue to two way streets.
 
-#### Truck route policy
+**Truck Route Policy**
 
-- Continue to convene the truck route policy working group (Feb 2024)
-- Advocate for the City to pass a truck routes policy (Dec 2024)
+* Continue to attend the truck route policy working group.
+* Advocate for the City to pass a truck routes policy.
 
-#### GFL contract matters
+**Alleys**
 
-- Work with residents to report missed pickups from GFL
-- Work with residents to report leaky trucks from GFL
+* Work with residents to design an alley activation plan that can include interventions and investments from the City, DTE, DWSD .
 
-#### Sidewalks
+**Sidewalks**
 
-- Assist neighborhood groups in getting more funding for sidewalk repairs through the Department of Public Works
+* Assist neighborhood groups in getting more funding for sidewalk repairs through the Department of Public Works
+
+### Strategic Focus #5: Governance
+
+**Onboard New Directors**
+
+* Vote to approve vacancies on the board.
+* Distribute printed, revised governance manual.
+* Distribute and collect required board or director forms noted in the governance manual.
+
+**Board Development and Evaluation**
+
+* Utilize learnings from the Hollingsworth training to optimize board performance.
+* Board leadership to work with the executive director to establish objective criteria for board evaluations.
+* Update organizational manual with new onboarding procedures that are more efficient (shorter) and effective.
+
+**Financial and Legal Compliance**
+
+* Complete audit by March 25th and 990 filing by May 15th.
+* Complete license to solicit with the Michigan attorney general’s office.
+* Complete annual corporate report with the Michigan secretary of state’s office.
+
+**Housing Management**
+
+* City rental inspections are due next in 2026.
+* Come up with SOW procedures for rental management, including leasing, resident engagement and management.
+
+**Fund Development**
+
+* Create an individual donor strategy for recurring donations.
+* Create corporate giving strategy.
+* Create a high net worth donor strategy.
+* Continue to engage external personnel such as grant writers to support these initiatives.
 
 <style>
 	.card {
