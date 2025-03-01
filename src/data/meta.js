@@ -1,7 +1,7 @@
 export default {
 	title: 'The Villages of Detroit',
 	description:
-		'The Villages CDC supports and advocates for the development of inclusive places and neighborhoods within The Villages.',
+		'The Villages CDC promotes growth that represents, protects, respects and enriches our existing community.',
 	url: 'https://thevillagesofdetroit.com',
 	image: '/src/images/global/meta.jpeg',
 	links: [

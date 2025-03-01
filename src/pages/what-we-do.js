@@ -5,7 +5,7 @@ import services from "../data/services.js";
 export const meta = {
 	title: "What We Do",
 	description:
-		"The Villages CDC supports and advocates for the development of inclusive places and neighborhoods within The Villages.",
+		"The Villages CDC promotes growth that represents, protects, respects and enriches our existing community.",
 };
 
 export const body = md`
