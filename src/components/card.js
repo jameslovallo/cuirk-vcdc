@@ -2,13 +2,8 @@ import { html, scss, when } from "recluse";
 
 export const card = ({ image, title, description, href }) => {
 	const tag = href ? "a" : "div";
-	const classList = [
-		"card",
-		href ? "r-action" : "",
-		href ? `href="${href}"` : "",
-	].join(" ");
 	return html`
-		<${tag} class="${classList}">
+		<${tag} class="card ${href ? "r-action" : ""}" ${href ? `href="${href}"` : ""}>
 			${when(image, html`<img src="${image}" />`)}
 			${when(title, html`<p>${title}</p>`)}
 			${when(description, html`<small>${description}</small>`)}
