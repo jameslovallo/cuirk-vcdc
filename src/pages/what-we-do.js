@@ -93,7 +93,7 @@ ${grid(loop(services, card))}
 
 **Support Neighborhood Association Improvement Goals**
 
-* Host \_\_ amount of engagement sessions towards the projects that revolve around their selections: (e.g., DWSD matters, blight and traffic calming.)
+* Host four engagement sessions towards the projects that revolve around their selections: (e.g., DWSD matters, blight and traffic calming.)
 * Create a specific and detailed work plan to be jointly administered between neighborhood supporters and VCDC for each of the three topics.
 * Work with residents, the Historic District Commission and BSEED to locate buildings that are being demolished by neglect.
 
@@ -142,38 +142,6 @@ ${grid(loop(services, card))}
 **Sidewalks**
 
 * Assist neighborhood groups in getting more funding for sidewalk repairs through the Department of Public Works
-
-### Strategic Focus #5: Governance
-
-**Onboard New Directors**
-
-* Vote to approve vacancies on the board.
-* Distribute printed, revised governance manual.
-* Distribute and collect required board or director forms noted in the governance manual.
-
-**Board Development and Evaluation**
-
-* Utilize learnings from the Hollingsworth training to optimize board performance.
-* Board leadership to work with the executive director to establish objective criteria for board evaluations.
-* Update organizational manual with new onboarding procedures that are more efficient (shorter) and effective.
-
-**Financial and Legal Compliance**
-
-* Complete audit by March 25th and 990 filing by May 15th.
-* Complete license to solicit with the Michigan attorney general’s office.
-* Complete annual corporate report with the Michigan secretary of state’s office.
-
-**Housing Management**
-
-* City rental inspections are due next in 2026.
-* Come up with SOW procedures for rental management, including leasing, resident engagement and management.
-
-**Fund Development**
-
-* Create an individual donor strategy for recurring donations.
-* Create corporate giving strategy.
-* Create a high net worth donor strategy.
-* Continue to engage external personnel such as grant writers to support these initiatives.
 
 <style>
 	.card {
